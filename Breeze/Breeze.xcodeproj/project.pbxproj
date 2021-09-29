@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A47AD302703BAC3000D2518 /* BreezeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47AD2F2703BAC3000D2518 /* BreezeApp.swift */; };
+		9A47AD322703BAC3000D2518 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47AD312703BAC3000D2518 /* ContentView.swift */; };
+		9A47AD342703BAC4000D2518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A47AD332703BAC4000D2518 /* Assets.xcassets */; };
+		9A47AD372703BAC4000D2518 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A47AD362703BAC4000D2518 /* Preview Assets.xcassets */; };
+		9A47AD412703BAC4000D2518 /* BreezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47AD402703BAC4000D2518 /* BreezeTests.swift */; };
+		9A47AD4B2703BAC4000D2518 /* BreezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47AD4A2703BAC4000D2518 /* BreezeUITests.swift */; };
+		9A47AD4D2703BAC4000D2518 /* BreezeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47AD4C2703BAC4000D2518 /* BreezeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A47AD3D2703BAC4000D2518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A47AD242703BAC3000D2518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A47AD2B2703BAC3000D2518;
+			remoteInfo = Breeze;
+		};
+		9A47AD472703BAC4000D2518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A47AD242703BAC3000D2518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A47AD2B2703BAC3000D2518;
+			remoteInfo = Breeze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A47AD2C2703BAC3000D2518 /* Breeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A47AD2F2703BAC3000D2518 /* BreezeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeApp.swift; sourceTree = "<group>"; };
+		9A47AD312703BAC3000D2518 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A47AD332703BAC4000D2518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A47AD362703BAC4000D2518 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A47AD3C2703BAC4000D2518 /* BreezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A47AD402703BAC4000D2518 /* BreezeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeTests.swift; sourceTree = "<group>"; };
+		9A47AD462703BAC4000D2518 /* BreezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A47AD4A2703BAC4000D2518 /* BreezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeUITests.swift; sourceTree = "<group>"; };
+		9A47AD4C2703BAC4000D2518 /* BreezeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A47AD292703BAC3000D2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD392703BAC4000D2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD432703BAC4000D2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A47AD232703BAC3000D2518 = {
+			isa = PBXGroup;
+			children = (
+				9A47AD2E2703BAC3000D2518 /* Breeze */,
+				9A47AD3F2703BAC4000D2518 /* BreezeTests */,
+				9A47AD492703BAC4000D2518 /* BreezeUITests */,
+				9A47AD2D2703BAC3000D2518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A47AD2D2703BAC3000D2518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A47AD2C2703BAC3000D2518 /* Breeze.app */,
+				9A47AD3C2703BAC4000D2518 /* BreezeTests.xctest */,
+				9A47AD462703BAC4000D2518 /* BreezeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A47AD2E2703BAC3000D2518 /* Breeze */ = {
+			isa = PBXGroup;
+			children = (
+				9A47AD2F2703BAC3000D2518 /* BreezeApp.swift */,
+				9A47AD312703BAC3000D2518 /* ContentView.swift */,
+				9A47AD332703BAC4000D2518 /* Assets.xcassets */,
+				9A47AD352703BAC4000D2518 /* Preview Content */,
+			);
+			path = Breeze;
+			sourceTree = "<group>";
+		};
+		9A47AD352703BAC4000D2518 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A47AD362703BAC4000D2518 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A47AD3F2703BAC4000D2518 /* BreezeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A47AD402703BAC4000D2518 /* BreezeTests.swift */,
+			);
+			path = BreezeTests;
+			sourceTree = "<group>";
+		};
+		9A47AD492703BAC4000D2518 /* BreezeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A47AD4A2703BAC4000D2518 /* BreezeUITests.swift */,
+				9A47AD4C2703BAC4000D2518 /* BreezeUITestsLaunchTests.swift */,
+			);
+			path = BreezeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A47AD2B2703BAC3000D2518 /* Breeze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A47AD502703BAC4000D2518 /* Build configuration list for PBXNativeTarget "Breeze" */;
+			buildPhases = (
+				9A47AD282703BAC3000D2518 /* Sources */,
+				9A47AD292703BAC3000D2518 /* Frameworks */,
+				9A47AD2A2703BAC3000D2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breeze;
+			productName = Breeze;
+			productReference = 9A47AD2C2703BAC3000D2518 /* Breeze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A47AD3B2703BAC4000D2518 /* BreezeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A47AD532703BAC4000D2518 /* Build configuration list for PBXNativeTarget "BreezeTests" */;
+			buildPhases = (
+				9A47AD382703BAC4000D2518 /* Sources */,
+				9A47AD392703BAC4000D2518 /* Frameworks */,
+				9A47AD3A2703BAC4000D2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A47AD3E2703BAC4000D2518 /* PBXTargetDependency */,
+			);
+			name = BreezeTests;
+			productName = BreezeTests;
+			productReference = 9A47AD3C2703BAC4000D2518 /* BreezeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A47AD452703BAC4000D2518 /* BreezeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A47AD562703BAC4000D2518 /* Build configuration list for PBXNativeTarget "BreezeUITests" */;
+			buildPhases = (
+				9A47AD422703BAC4000D2518 /* Sources */,
+				9A47AD432703BAC4000D2518 /* Frameworks */,
+				9A47AD442703BAC4000D2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A47AD482703BAC4000D2518 /* PBXTargetDependency */,
+			);
+			name = BreezeUITests;
+			productName = BreezeUITests;
+			productReference = 9A47AD462703BAC4000D2518 /* BreezeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A47AD242703BAC3000D2518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9A47AD2B2703BAC3000D2518 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9A47AD3B2703BAC4000D2518 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9A47AD2B2703BAC3000D2518;
+					};
+					9A47AD452703BAC4000D2518 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9A47AD2B2703BAC3000D2518;
+					};
+				};
+			};
+			buildConfigurationList = 9A47AD272703BAC3000D2518 /* Build configuration list for PBXProject "Breeze" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A47AD232703BAC3000D2518;
+			productRefGroup = 9A47AD2D2703BAC3000D2518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A47AD2B2703BAC3000D2518 /* Breeze */,
+				9A47AD3B2703BAC4000D2518 /* BreezeTests */,
+				9A47AD452703BAC4000D2518 /* BreezeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A47AD2A2703BAC3000D2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A47AD372703BAC4000D2518 /* Preview Assets.xcassets in Resources */,
+				9A47AD342703BAC4000D2518 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD3A2703BAC4000D2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD442703BAC4000D2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A47AD282703BAC3000D2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A47AD322703BAC3000D2518 /* ContentView.swift in Sources */,
+				9A47AD302703BAC3000D2518 /* BreezeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD382703BAC4000D2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A47AD412703BAC4000D2518 /* BreezeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47AD422703BAC4000D2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A47AD4B2703BAC4000D2518 /* BreezeUITests.swift in Sources */,
+				9A47AD4D2703BAC4000D2518 /* BreezeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A47AD3E2703BAC4000D2518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A47AD2B2703BAC3000D2518 /* Breeze */;
+			targetProxy = 9A47AD3D2703BAC4000D2518 /* PBXContainerItemProxy */;
+		};
+		9A47AD482703BAC4000D2518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A47AD2B2703BAC3000D2518 /* Breeze */;
+			targetProxy = 9A47AD472703BAC4000D2518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A47AD4E2703BAC4000D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A47AD4F2703BAC4000D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A47AD512703BAC4000D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breeze/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.Breeze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A47AD522703BAC4000D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breeze/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.Breeze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A47AD542703BAC4000D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.BreezeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breeze.app/Breeze";
+			};
+			name = Debug;
+		};
+		9A47AD552703BAC4000D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.BreezeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breeze.app/Breeze";
+			};
+			name = Release;
+		};
+		9A47AD572703BAC4000D2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.BreezeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breeze;
+			};
+			name = Debug;
+		};
+		9A47AD582703BAC4000D2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackAThing.BreezeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breeze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A47AD272703BAC3000D2518 /* Build configuration list for PBXProject "Breeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A47AD4E2703BAC4000D2518 /* Debug */,
+				9A47AD4F2703BAC4000D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47AD502703BAC4000D2518 /* Build configuration list for PBXNativeTarget "Breeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A47AD512703BAC4000D2518 /* Debug */,
+				9A47AD522703BAC4000D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47AD532703BAC4000D2518 /* Build configuration list for PBXNativeTarget "BreezeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A47AD542703BAC4000D2518 /* Debug */,
+				9A47AD552703BAC4000D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47AD562703BAC4000D2518 /* Build configuration list for PBXNativeTarget "BreezeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A47AD572703BAC4000D2518 /* Debug */,
+				9A47AD582703BAC4000D2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A47AD242703BAC3000D2518 /* Project object */;
+}
