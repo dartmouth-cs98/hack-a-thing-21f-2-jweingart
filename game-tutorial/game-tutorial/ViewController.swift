@@ -1,4 +1,6 @@
 import UIKit
+import Foundation
+import Alamofire
 
 class ViewController: UIViewController {
     var previousCardValue = 0
@@ -30,6 +32,17 @@ class ViewController: UIViewController {
     func gameOver() {
         scoreLabel.text = "Game over!"
         score = 0
+        if let accountSID = ProcessInfo.processInfo.environment["TWILIO_ACCOUNT_SID"],
+        let authToken = ProcessInfo.processInfo.environment["TWILIO_AUTH_TOKEN"] {
+            let url = "https://api.twilio.com/2010-04-01/Accounts/\(accountSID)/Messages"
+            let parameters = ["From": "+14582198412", "To": "+16508234318", "Body": "You Just Lost!"]
+            AF.request(url, method: .post, parameters: parameters, encoding:
+            JSONEncoding.default, headers: nil)
+                .authenticate(username: accountSID, password: authToken)
+                .responseJSON { response in
+            debugPrint(response)
+        }
+        RunLoop.main.run()
     }
     
     @IBAction func lowButtonPressed(_ sender: Any) {
